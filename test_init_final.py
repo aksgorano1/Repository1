@@ -1810,7 +1810,7 @@ class mainCog(commands.Cog):
 				result = wks.acell(basicSetting[16]).value
 
 				embed = discord.Embed(
-						description= '```' + SearchID + ' 님이 받을 다이야는 ' + result + ' 다이야 입니다.```',
+						description= '```' + SearchID + ' 님이 받을 다이아는 ' + result + ' 다이 입니다.```',
 						color=0xff00ff
 						)
 				await ctx.send(embed=embed, tts=False)
